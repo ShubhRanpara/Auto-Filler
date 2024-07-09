@@ -41,6 +41,8 @@ python -m streamlit run app.py
 streamlit run app.py
 ```
 
+7. After opening the Streamlit web app, you can upload your PDF file and the LLM will generate the answers based on our predefined question set. These answers can be seen directly on the Streamlit web page.
+
 # Key errors faced while installation and running of the project :
 
 ## If any dependency is not working properly than update it with it's latest verson.
