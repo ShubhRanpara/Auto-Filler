@@ -15,7 +15,7 @@ import json
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 Automatic form filling App powered by Gemma')
+    st.title('📄🖥️ Automatic form filling App powered by LLM')
     st.markdown('''
     ## About
     This app is an Automatic form filling app built using:
@@ -86,7 +86,7 @@ def convert_docx_to_pdf(base_path, file, file_name):
 def main():
     load_dotenv()
 
-    st.header("Ask Your PDF, DOCX, PPTX")
+    st.header("Upload Your PDF, DOCX, PPTX")
 
     file = st.file_uploader("Upload your file")
 
