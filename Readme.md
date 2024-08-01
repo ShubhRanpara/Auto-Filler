@@ -29,7 +29,7 @@ virtualenv env
 pip install -r requirements.txt
 ```
 
-5. Add your HUGGINGFACEHUB_API_TOKEN in `.env` file and check the file name must be `.env` otherwise rename the file to `.env`.
+5. Add your HUGGINGFACEHUB_API_TOKEN in `.env` file and check the file name must be `.env` otherwise rename the file to `.env`. Also don't forget to update the file paths where it is mentioned.
 
 6. Once you have installed the required dependencies, you can run the project using Streamlit. Streamlit provides an easy way to create interactive web applications in Python.
 
@@ -42,6 +42,12 @@ streamlit run app.py
 ```
 
 7. After opening the Streamlit web app, you can upload your PDF file and the LLM will generate the answers based on our predefined question set. These answers can be seen directly on the Streamlit web page.
+
+8. Here are some screenshots of the result.
+
+![Streamlit Dashboard](https://github.com/ShubhRanpara/Auto-Filler/blob/master/Screenshots/Screenshot_1-8-2024_124539_localhost.jpeg?raw=true)
+
+![Response and form filling](https://github.com/ShubhRanpara/Auto-Filler/blob/master/Screenshots/Screenshot_1-8-2024_125248_localhost.jpeg?raw=true)
 
 # Key errors faced while installation and running of the project :
 
